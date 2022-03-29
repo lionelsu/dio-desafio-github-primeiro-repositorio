@@ -5,14 +5,14 @@ O conceito é aplicar em um repositório o progresso aprendido até aqui sobre G
 # Iniciando o git no computador: O que é Git?
 
 Git é um sistema de versionamento de código distribuído, a curto modo, ele serve para registrar alterações em arquivos para que você possa lembrar das versões específicas mais tarde. 
-Como o código é distribuído pode colaborar com diferentes grupos de pessoas de maneiras diferentes e ao mesmo tempo, dentro do mesmo projeto, ele pode estar em vários repositórios remotos e se, por qualquer motivo o servidor morrer, qualquer um dos repositórios de clientes pode ser restaurados de volta para outro servidor.
+Como o código é distribuído pode colaborar com diferentes grupos de pessoas de maneiras diferentes e ao mesmo tempo, dentro do mesmo projeto, ele pode estar em vários repositórios remotos e se, por qualquer motivo o servidor morrer, qualquer um dos repositórios de clientes pode ser restaurado de volta para outro servidor.
 
 O Git pode ser baixado no site oficial do Git <a href="https://git-scm.com/" target="_blank">AQUI!</a>
 
 # Criando uma Chave SSH para usar no GitHub
 ### Crie uma conta no GitHub antes de prosseguir
 
-Se você for usuário de Windows, você pode clicar com o botão direito na area de trabalho e depois em *Git Bash* e digitar o comando no console:
+Se você for usuário de Windows, você pode clicar com o botão direito na área de trabalho e depois em *Git Bash* e digitar o comando no console:
 ```
 ssh-keygen -t ed25519 -C email@cadastradono.github
 ```
