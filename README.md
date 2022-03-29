@@ -5,7 +5,7 @@ O conceito é aplicar em um repositório o progresso aprendido até aqui sobre G
 # Iniciando o git no computador: O que é Git?
 
 Git é um sistema de versionamento de código distribuído, a curto modo, ele serve para registrar alterações em arquivos para que você possa lembrar das versões específicas mais tarde. 
-Como o código é distribuído pode colaborar com diferentes grupos de pessoas de maneiras diferentes e ao mesmo tempo, dentro do mesmo projeto, ele pode estar em vários repositórios remotos e se, por qualquer motivo o servidor morrer, qualquer um dos repositórios de clientes podem ser restaurados de volta para outro servidor.
+Como o código é distribuído pode colaborar com diferentes grupos de pessoas de maneiras diferentes e ao mesmo tempo, dentro do mesmo projeto, ele pode estar em vários repositórios remotos e se, por qualquer motivo o servidor morrer, qualquer um dos repositórios de clientes pode ser restaurados de volta para outro servidor.
 
 O Git pode ser baixado no site oficial do Git <a href="https://git-scm.com/" target="_blank">AQUI!</a>
 
@@ -25,7 +25,7 @@ Após estar no diretório correto, insira:
 cat id_ed25519.pub
 ```
 Então o Git retornará a chave para ser usada no GitHub.
-O caminho a ser seguido na página do GitHub para adicionar sua recém criada chave SSH é
+O caminho a ser seguido na página do GitHub para adicionar sua recém-criada chave SSH é
 **Settings > SSH and GPG keys > New SSH key > 
 de um Titulo a sua Chave SSH e adicione a chave no campo KEY seguindo de > ADD SSH Key.
 A chave deve ser adicionada desde o ssh-ed25519 AA54..... até o ... .com do e-mail**. 
@@ -43,7 +43,8 @@ Isto cria uma avaliação para que o agente SSH continue rodando em plano de fun
 
 # Alguns comandos básicos de interação entre o Git e o GitHub
 
-1. Após criar um repositório no GitHub, ele já sugere que você o adicione no repositório local, ou seja, usando o Git. Esta URL fica logo a baixo em *...push an existing repository...* e o comando no Git:
+1. Após criar um repositório no GitHub, ele já sugere que você o adicione no repositório local, ou seja, usando o Git. Esta URL fica logo abaixo em *...push an existing repository...* e o comando no Git:
+
 ```
 git remote add origin https://github.com/seu/repositorio.git.io
 ```
@@ -52,7 +53,7 @@ git remote add origin https://github.com/seu/repositorio.git.io
 ```
 git clone git@caminho.do.ssh.github.io
 ```
-precisa copiar caminho SSH em "<Code>" no repositório do GitHub
+precisa copiar caminho SSH em "Code" no repositório do GitHub
 
 3. **Empurrar** commits para o GitHub:
 ```
